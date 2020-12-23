@@ -23,7 +23,7 @@ def read():
             print('\t' + 'No tasks')
             continue
         for task in task_data:
-            print('\t' + task['name'])
+            print('\t' + task['name'] + " -- " + task['id'])
 
 
 def create(task_name, column_name):
